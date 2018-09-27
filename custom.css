@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style type="text/css">
+    body{
+      line-height: 24px;
+      font: 16px Helvetica, Sans-Serif;
+      background:url(images/bg.jpg);
+    }
+    /* # is used to target div with custom id  */
+    #page-wrap{
+      width: 800px;
+      margin: 40px auto 60px; /*reserve some empty space around content*/
+    }
+
+    #pic{
+      float:right;
+      margin: -30px 0 0 0; /*top right botton left*/
+
+    }
+
+    h1{
+      color:rgb(243,33,255);/*red green blue*/
+      margin: 0 0 16px 0;
+      padding: 0 0 18px 0;
+      font-size:42px;
+      font-size:bold;
+      letter-spacing: -2px;
+      border-bottom:1px solid #999;
+    }
+
+    a{
+      color: rgb(61, 95, 232);
+      border-bottom: 1px bottom;
+      text-decoration: none;
+    }
+
+    a:hover{
+      border-bottom-style: solid;
+      color: black;
+    }
+
+    ul{
+      margin: 0 0 32px 17px;
+    }
+
+    li{
+      color:rgb(54, 60, 79);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="page-wrap">
+  <image src="images/profile.jpeg" width="200" height="auto" id="pic">
+  <h1>XXC</h1>
+  <p>
+    <!-- This is a note for myself -->
+    Portfolio: <a href="https://xiaoxuechen.blogspot.com">xiaoxuechen.blog.com</a>
+    <br/>Email:<a href="mailto:xc2399@tc.columbia.edu">xc2399@tc.columbia.edu</a>
+
+   <div>
+     <h1>Education</h1>
+     <h2>Teachers College, Columbia University</h2>
+     <p><strong>Major</strong> Instructional Technology and Media<br/>
+        <strong>Minor</strong> Oil Painting</p>
+   </div>
+
+   <div>
+     <h1>Skills</h1>
+     <h2>Office Skills</h2>
+     <p>Data management, Event Organization, Press release, Marketing Communication</p>
+
+    <h2>Computer Skills</h2>
+    <p>JAVA, HTML, CSS, MySQL, Axure, Photoshop, Phython, VideoStudio</p>
+   <div>
+
+   <div>
+     <h1>Experience</h1>
+     <h2>PR intern at Burson-Marsteller</h2>
+     <ul>
+       <li>Delivered weekly reports on 3 social media accounts performance of VIP clients</li>
+       <li>Managed a client’s WeChat account via content creation with HTML5 tools</li>
+       <li>Developed 5+ major offline marketing campaigns and mini events on social media platforms</li>
+     </ul>
+  </div>
+  </p>
+</body>
+</html>
